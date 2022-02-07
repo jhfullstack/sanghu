@@ -40,6 +40,15 @@ i {
   background: #fff;
   color: #5bccf6
 }
+.comm-btn {
+  background: orange;
+  color: #fff;
+  border: 1px solid orange;
+}
+.comm-btn:hover {
+  background: #fff;
+  color: orange
+}
 input::placeholder {
 	color: #aaa
 }
@@ -75,6 +84,10 @@ input::placeholder {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.tbl-3 thead th {
+  background-color: #000;
+  color: #fff
+}
 /* Datatable Design */
 
 .bg-gray {

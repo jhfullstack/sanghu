@@ -26,16 +26,21 @@
 								  		</select>
 								  	</div>
 								</div>
-								<br>
+								<br>								
 								<div class="row">
-								  	<div class="col-12">
-								  		<label for="" class="bg-gray p10"><b>Add Product Area</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="save-btn">Add Line</button></label>
-						  			</div>
-						  		</div>
+									<div class="col-10">
+										<div class="bg-gray p10">
+											<b>Add Product Area</b>
+										</div>
+									</div>
+									<div class="col-2">
+										<button class="save-btn pull-right">Add Line</button>
+									</div>
+								</div>
 						  		<br>
 						  		<div class="row">
 						  			<div class="col-12">
-						  				<table class="tbl-2">
+						  				<table class="tbl-3">
 						  					<thead>
 						  						<tr class="text-center">
 						  							<th>SL</th>
@@ -51,22 +56,34 @@
 						  					<tbody>
 						  						<tr>
 						  							<td>1</td>
-						  							<td>COW123456</td>
-						  							<td>534 KG, Fijian</td>
+						  							<td width="20%">
+						  								<select name="item_id" id="" class="form-control mb0">
+										  					<option value="">Select Item</option>
+										  					<option value="1">ABC</option>
+										  					<option value="2">XYZ</option>
+										  				</select>
+						  							</td>
+						  							<td width="15%">534 KG, Fijian</td>
 						  							<td>9,700.00</td>
-						  							<td><input type="text" value="10,000.00"></td>
-						  							<td><input type="text" value="1.00"></td>
-						  							<td><input type="text" value="10,000.00"></td>
+						  							<td width="10%"><input type="text" value="10,000.00"></td>
+						  							<td width="10%"><input type="text" value="1.00"></td>
+						  							<td width="15%"><input type="text" value="10,000.00"></td>
 						  							<td><button class="save-btn">delete</button></td>
 						  						</tr>
 						  						<tr>
 						  							<td>2</td>
-						  							<td>BUL123456</td>
-						  							<td>620 KG, Fijian</td>
+						  							<td width="20%">
+						  								<select name="item_id" id="" class="form-control mb0">
+										  					<option value="">Select Item</option>
+										  					<option value="1">ABC</option>
+										  					<option value="2">XYZ</option>
+										  				</select>
+						  							</td>
+						  							<td width="15%">620 KG, Fijian</td>
 						  							<td>1,700.00</td>
-						  							<td><input type="text" value="1,600.00"></td>
-						  							<td><input type="text" value="1.00"></td>
-						  							<td><input type="text" value="1,600.00"></td>
+						  							<td width="10%"><input type="text" value="1,600.00"></td>
+						  							<td width="10%"><input type="text" value="1.00"></td>
+						  							<td width="15%"><input type="text" value="1,600.00"></td>
 						  							<td><button class="save-btn">delete</button></td>
 						  						</tr>
 						  					</tbody>

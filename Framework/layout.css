@@ -158,6 +158,17 @@ input, select, textarea {
   font-size: 11px;
   border-radius: 50px;
   cursor: pointer;
+  padding: 0 15px;
+}
+.comm-btn {
+  line-height: 30px;
+  height: 35px;
+  min-width: 200px;
+  font-size: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  float: right;
+  padding: 0 15px;
 }
 input::placeholder {
   color: gray;
@@ -227,10 +238,10 @@ input[type=checkbox] {
 }
 
 .tbl-3 {
-	width: 100%
+  width: 100%
 }
 .tbl-3 thead tr, .tbl-3 tbody tr {
-	text-align: left;
+  text-align: left;
 }
 .tbl-3 thead th,td {
   padding: 5px 0;
@@ -245,6 +256,28 @@ input[type=checkbox] {
   text-align: right;
 }
 .tbl-3 .form-control {
+  margin-bottom: 0
+}
+
+.tbl-4 {
+	width: 100%
+}
+.tbl-4 thead tr, .tbl-4 tbody tr {
+	text-align: center;
+}
+.tbl-4 thead th {
+  padding: 5px 0;
+  text-align: center;
+}
+.tbl-4 tbody td {
+  text-align: center;
+  padding: 0 10px;
+}
+.tbl-4 tfoot th {
+  padding: 0 10px;
+  text-align: center;
+}
+.tbl-4 .form-control {
   margin-bottom: 0
 }
 

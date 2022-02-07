@@ -23,6 +23,10 @@
 								  		<button class="save-btn">Save</button>
 						  			</div>
 						  			<div class="col-3">
+								  		<input type="text" name="department" id="" class="form-control" placeholder="Type Department Name">
+								  		<button class="save-btn">Save</button>
+								  	</div>
+								  	<div class="col-3">
 								  		<select name="department_id" id="" class="form-control">
 								  			<option value="">Select Department</option>
 								  			<option value="1">A</option>

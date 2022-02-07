@@ -49,7 +49,7 @@
 						  		<br>
 						  		  <div class="row">
 						  			<div class="col-12">
-						  				<table class="tbl-2">
+						  				<table class="tbl-3">
 						  					<thead>
 						  						<tr class="text-center">
 						  							<th>SL</th>

@@ -144,7 +144,7 @@
 						  		</div>
 						  		<hr>
 						  		<div class="row">
-						  			<div class="col-12">						  				
+						  			<div class="col-12">
 						  				<h6 class="bg-gray">Lot Issue (Fruits)</h6>
 						  				<button style="float: right;" class="save-btn">Add Line</button>
 						  			</div>

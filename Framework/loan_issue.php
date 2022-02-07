@@ -37,6 +37,9 @@
 								  			<option value="2">Area 2</option>
 								  		</select>
 								  	</div>
+								  	<div class="col-3">
+								  		<input type="text" class="form-control" name="incharge" placeholder="Area In-charge Name">
+								  	</div>
 								</div>
 								<div class="row">
 								  	<div class="col-3">
@@ -46,33 +49,59 @@
 								  			<option value="2">DEF</option>
 								  		</select>
 								  	</div>
-								  	<div class="col-6">
+								  	<div class="col-3">
 								  		<input type="text" name="business_type" id="" class="form-control" placeholder="Business Type">
 								  	</div>
 								  	<div class="col-3">
-								  		<input type="text" name="loan_issue_date" id="" class="form-control" placeholder="Loan Issue Date">
+								  		<input type="text" name="loan_confirm_date" id="" class="form-control" placeholder="Loan Confirm Date">
+								  	</div>
+								  	<div class="col-3">
+								  		<select name="coll_off_days" class="form-control" id="">
+								  			<option>Select Collection Off Days</option>
+								  			<option value="1">Friday</option>
+								  			<option value="2">Saturday</option>
+								  			<option value="3">Sunday</option>
+								  			<option value="4">Monday</option>
+								  			<option value="5">Tuesday</option>
+								  			<option value="6">Wednesday</option>
+								  			<option value="7">Thursday</option>
+								  		</select>
 								  	</div>
 								</div>
-								<h6 class="bg-gray p10">Loan Issue Data</h6>
+								<br>
+								<div class="row">
+									<div class="col-9">
+										<div class="bg-gray p10">
+											<b>Loan Issue Data</b>
+										</div>
+									</div>
+									<div class="col-3">
+										<button class="comm-btn">Generate Installment Schedule</button>
+									</div>
+								</div>								
+								<br>
 								<div class="row">
 								  	<div class="col-3">
 								  		<input type="text" name="loan_id" id="" class="form-control" placeholder="Loan ID">
 								  	</div>
 								  	<div class="col-3">
+								  		<input type="text" name="loan_process_date" id="" class="form-control" placeholder="Loan Process Date">
+								  	</div>
+								</div>
+								<div class="row">
+								  	<div class="col-3">
 								  		<input type="text" name="loan_issue_amount" id="" class="form-control" placeholder="Loan Issue Amount">
 								  	</div>
 								  	<div class="col-3">
 								  		<input type="text" name="loan_duration" id="" class="form-control" placeholder="Loan Duration">
-						  			</div>
-						  		</div>
-						  		<div class="row">						  			
-								  	<div class="col-3">
+						  			</div>						  			
+								  	<div class="col-2">
 								  		<input type="text" name="ddbs_amount" id="" class="form-control" placeholder="DDBS Amount">
 								  	</div>
-								  	<div class="col-3">
+								  	<div class="col-2">
 								  		<input type="text" name="processing_fee" id="" class="form-control" placeholder="Processing Fee">
 								  	</div>
-								  	<div class="col-3">
+								  	<div class="col-2">
 								  		<input type="text" name="stamp_fee" id="" class="form-control" placeholder="Stamp Fee">
 								  	</div>
 						  		</div>
